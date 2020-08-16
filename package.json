@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-chat",
+  "version": "1.0.0",
+  "description": "Full-stack chat",
+  "author": "VladDvl",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt run",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "nuxt": "^2.14.0",
+    "socket.io": "^2.3.0",
+    "vue-socket.io": "^3.0.10",
+    "vuetify": "^2.3.8",
+    "vuetify-loader": "^1.6.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "nodemon": "^2.0.4",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2"
+  }
+}
