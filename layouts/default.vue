@@ -1,9 +1,9 @@
 <template>
-  <v-app>
-    <h1>Title</h1>
+  <v-app app>
+    <nuxt/>
   </v-app>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
